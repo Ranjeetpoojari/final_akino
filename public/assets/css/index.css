@@ -1,0 +1,143 @@
+.fs-12{font-size: 12px;}
+.fs-13{font-size: 13px;}
+.fs-14{font-size: 14px;}
+.fs-16{font-size: 15px;}
+.fs-18{font-size: 18px;}
+.fs-20{font-size: 20px;}
+.mb-70{margin-bottom: 40px;}
+.z-9{z-index: 999;}
+@font-face {
+    font-family: 'Balibong';
+    src: url('/assets/fontFamily/Balibong-Regular.ttf') format('truetype'); 
+}
+.balibong{ font-family: 'Balibong', sans-serif;}
+.reponsive-img{
+    width: 183px;
+}
+.bg-orange{background: #F87316;}
+.fs-30{font-size: calc(30px + (30 - 22)*(100vw - 320px) / (1920 - 320));}
+.index_banner .carousel-item{width: 100%; aspect-ratio: 16/7;}
+.inactive_campaign{width: 290px; height: 390px;}
+.H-75{height: 75%;}
+#blogslider .owl-nav button.owl-next ,
+#campaigninactive .owl-nav button.owl-next {
+    font-size: 2.5rem;
+    height: 45px;
+    width: 45px;
+    color: rgb(97, 97, 97);
+    border-radius: 50%;
+    background: #eaeaea;
+    position: absolute;
+    top: -7.5rem;
+    right: 0px;
+    padding-bottom: 5px !important;
+    margin-top: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#blogslider .owl-nav button.owl-prev ,
+#campaigninactive .owl-nav button.owl-prev {
+    font-size: 2.5rem;
+    height: 45px;
+    width: 45px;
+    color: rgb(97, 97, 97);
+    border-radius: 50%;
+    background: #eaeaea;
+    position: absolute;
+    top: -7.5rem;
+    right: 3.8rem;
+    padding-bottom: 5px !important;
+    margin-top: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.heading-content{   height: 51px;
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 2;
+}
+.h-320{min-height: 260px;}
+.inactive_content{height: 45px; overflow: hidden;display: -webkit-box;-webkit-box-orient:vertical ;-webkit-line-clamp: 2;}
+.campaign-card{width: 360px;}
+.counter-content {
+    display: none; 
+    height: 0; 
+    overflow: hidden; 
+    transition: all 1.6s ease; 
+}
+
+.counter-container:hover .counter-content {
+    display: flex; 
+    height: 100%; 
+    background-color: rgba(97, 97, 97, 0.5);
+    backdrop-filter: blur(10px);
+}
+/* activity section */
+.active-container{background: url(/assets/img/indexbanner/bacground.webp);background-size: cover; height:310px; background-repeat: no-repeat;}
+.blog-card{max-width:800px ;}
+.blog-container{height:100vh;}
+
+/* activity section */
+ .founder-meassage-con{background-image: url(/assets/img/indexbanner/background1.webp); background-repeat: no-repeat;background-size:cover;}
+.founder-meassage-con1{background-image: url(/assets/img/indexbanner/founderbackground2.webp);background-repeat: no-repeat;background-size:cover;}
+
+@media (max-width: 991.98px) {
+    .reponsive-img{width: 70px;}
+    .H-75{height: 30%;}
+    .mb-70{margin-bottom: 60px;}
+
+    #blogslider .owl-nav button.owl-next ,
+    #campaigninactive .owl-nav button.owl-next {
+        font-size: 2.5rem;
+        height: 35px;
+        width: 35px;
+        top: -4.5rem;
+    }
+    .blog-card{max-width:320px ;}
+
+    #blogslider .owl-nav button.owl-prev ,
+    #campaigninactive .owl-nav button.owl-prev {
+        font-size: 2rem;
+        height: 35px;
+        width: 35px;
+        color: rgb(97, 97, 97);
+        border-radius: 50%;
+        background: #eaeaea;
+        position: absolute;
+        top: -4.5rem;
+        right: 2.8rem;
+        padding-bottom: 5px !important;
+        margin-top: 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+   
+}
+.para2{
+    height: 68px;
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 3;
+}
+.para{
+    height: 85px;
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 4;
+}
+.glass-effect{ background: rgba(255, 255, 255, 0.3); /* Transparent white */
+    backdrop-filter: blur(10px); }
+
+
+@media (max-width: 600px) {
+    .blog-container{height:110vh;}
+    .mb-70{margin-bottom: 70px;}
+    .campaign-card{width: 360px;}
+    }

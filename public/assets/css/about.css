@@ -1,0 +1,251 @@
+:root {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+/* .herosection {
+    width: 100%;
+    height: 30.6875rem;
+    background: url('), lightgray 0px -238.26px / 100% 188.09% no-repeat;
+    background-position: center;
+    background-size: cover;
+} */
+
+.h1 {
+    color: var(--base-black, #000);
+    leading-trim: both;
+    text-edge: cap;
+    font-family: Montserrat;
+    font-size: 2.5rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+p {
+    color: var(--base-black, #000);
+    leading-trim: both;
+    text-edge: cap;
+    font-family: Montserrat;
+    font-size: 1.25rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.section3 .container {
+    border-radius: 1.25rem;
+    background: var(--primary-primary, #F9CA3E);
+
+}
+
+.bg-light-gray {
+    background: #F2F3F4;
+}
+
+.section3 img {
+    text-align: center;
+    object-fit: cover;
+    height: 16rem;
+    position: relative;
+    /* top: -100px; */
+}
+
+.section4 .container {
+    border-radius: 1.25rem;
+    background: var(--gray-anti-white, #F2F3F4);
+}
+
+.section4 img {
+
+    /* text-align: center;
+object-fit: cover;
+height: 16rem;
+position: relative; */
+
+    transform: scale(0.7);
+    text-align: center;
+    object-fit: cover;
+    height: 19.5625rem;
+
+}
+
+.section5 .tname {
+    color: var(--base-black, #000);
+    font-family: Montserrat;
+    /* font-size: 1.5625rem; */
+    font-style: normal;
+    /* font-weight: 600; */
+    line-height: normal;
+}
+
+.section5 .tdes {
+    color: #9F9F9F;
+
+    font-family: Montserrat;
+    /* font-size: 0.9375rem; */
+    font-style: normal;
+    /* font-weight: 400; */
+    line-height: normal;
+}
+
+.section5 .timg {
+    border-radius: 1.25rem;
+    background: var(--primary-primary, #F9CA3E);
+}
+
+.section5 .timg img {
+    width: 20.9375rem;
+    height: 20.9375rem;
+}
+
+.section6 img {
+    width: 13.125rem;
+    height: 13.125rem;
+}
+
+.section7 {
+    width: 100%;
+    height: 37.6875rem;
+    background: url('/assets/img/blooddonate.jpg');
+    object-fit: cover;
+    background-position: center;
+    background-size: cover;
+}
+
+.section7 .box {
+    width: 24.8125rem;
+    height: 20.3125rem;
+    border-radius: 1.25rem;
+    background: #FFEFD7;
+    position: relative;
+    top: 20%;
+    left: 60%;
+}
+
+.section7 .box .about {
+    color: var(--base-black, #000);
+    font-family: Montserrat;
+    font-size: 1.25rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    margin-top: 20%;
+}
+
+.section7 .box .name {
+    color: var(--base-black, #000);
+    font-family: Lazy Monday;
+    font-size: 1.5625rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.section7 .box .des {
+    color: var(--base-black, #000);
+    font-family: Montserrat;
+    font-size: 0.75rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.box img {
+    width: 6.8125rem;
+    height: 5.0625rem;
+    position: absolute;
+    top: -20px;
+    left: 30px;
+}
+.blur-img {position: relative;}
+.blur-img {position: relative;}
+.blur-img  h1{position: absolute; top:0px; background-color: #000000; width: 100%; height:100%; text-align: center; color:#fff;; opacity:0.9; padding: 15%; font-size: calc(35px + (100 - 35) * (100vw - 320px) / (1920 - 320));;}
+.blur-img .img-of-blur{
+filter: drop-shadow(50px);
+
+}
+
+@media screen and (max-width:1200px) {
+    .section7 .box {
+        width: 21rem;
+        height: 20rem;
+        left: 60%;
+
+    }
+
+    .section5 .timg img {
+        width: 10.9375rem;
+        height: 10.9375rem;
+    }
+
+    .box img {
+        width: 4rem;
+        height: 3rem;
+    }
+}
+
+@media screen and (max-width:900px) {
+    .section7 .box {
+        width: 15rem;
+        height: 14rem;
+        left: 60%;
+    }
+
+    .section7 .box .name {
+        font-size: 1.3rem;
+    }
+
+    .section7 .box .about {
+        font-size: 1rem;
+    }
+
+    .section7 .box .img {
+        width: 2.5rem;
+        height: 1.8rem;
+    }
+
+}
+
+@media screen and (max-width:900px) {
+    .section4 img {
+        transform: scale(0.5);
+    }
+
+    .section7 .box .name {
+        font-size: 1.1rem;
+    }
+
+    .section7 .box .des {
+        font-size: 0.4rem;
+    }
+
+    .section7 .box .about {
+        font-size: 0.8rem;
+    }
+
+    .section7 .box .img {
+        width: 2.5rem;
+        height: 1.8rem;
+    }
+
+}
+
+@media screen and (max-width:500px) {
+    .section7 {
+        height: 25rem;
+    }
+    .section7 .box .img {
+        width: 2.5rem;
+        height: 1.8rem;
+
+    }
+
+    .section7 .box {
+        bottom: 0%;
+        /* top: 50%; */
+        left: 15%;
+    }
+
+}

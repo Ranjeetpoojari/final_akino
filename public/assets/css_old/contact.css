@@ -1,0 +1,135 @@
+/* p {
+    margin: 0%;
+    padding: 0px;
+} */
+body{
+    overflow-x: hidden;
+}
+
+.font-sm {
+    font-size: 15px;
+    font-weight: 500;
+}
+
+.font-md {
+    font-size: 20px;
+
+    font-weight: 500;
+}
+
+
+
+.img-cover {
+    object-fit: cover;
+    height: 100vh;
+    width: 100vw;
+}
+
+.user-form {
+    top: 50%;
+
+}
+
+.main-form {
+    border: 1px solid #D2D2D2;
+
+}
+
+.input-background-color {
+    background-color: #F2F3F4;
+
+}
+.input-background-color:focus,
+.input-background-color:active
+
+{
+    background-color: #F2F3F4;  
+}
+.yellow-back-color {
+    background-color: #F9CA3E;
+}
+
+.input-height {
+    height: 3rem;
+}
+
+.textarea-height {
+    height: 13rem;
+}
+
+.box-height {
+    height: 5.2rem;
+}
+
+.map-section {
+    margin-top: 1000px;
+}
+
+.light-blue {
+    background-color: #F2F3F4;
+
+}
+
+.address-block {
+    height: 325px;
+    width: 270px;
+}
+
+.address-block-img {
+    height: 9rem;
+    width: 7rem;
+}
+
+.contact-block {
+    margin-top: 420px;
+}
+
+.mail-img {
+    height: 2.7rem;
+    width: 3.3rem;
+}
+
+.call-img {
+    height: 3.3rem;
+    width: 3.1rem;
+}
+
+.address-font {
+    font-size: 25px;
+    font-size: 600;
+}
+@media only screen and (max-width: 991.98px) {
+    .user-form {
+        top: 36%;
+    
+    }
+    .map-section {
+        margin-top: 1050px;
+    }
+}
+@media only screen and (max-width: 767px) {
+    .user-form {
+        top: 40%;
+    
+    }
+  
+
+    .font-md {
+        font-size: 17px;
+    }
+
+    .address-block {
+        height: 325px;
+        width: 220px;
+    }
+
+    .address-block-img {
+        height: 7rem;
+        width: 5rem;
+    }
+}
+@media only screen and (max-width: 460px){
+    .map-section {
+        margin-top: 1200px;
+    }
+}

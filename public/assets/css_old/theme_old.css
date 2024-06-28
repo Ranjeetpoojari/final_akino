@@ -1,0 +1,287 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,600;1,700;1,900&display=swap');
+
+@font-face {
+    font-family: myFont;
+    src: url(/assets/fontFamily/Lazy\ Monday.otf)
+}
+.custom-menu{display: none;}
+.custom-dropdown:hover .custom-menu,
+.custom-dropdown .custom-menu:hover{display: block; width: 250px;}
+.lazyMonday {
+    font-family: myFont;
+    font-weight: 400 !important;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Poppins', sans-serif;
+}
+.z-9{z-index: 999;}
+.active-link {
+    font-weight: 600;
+}
+.right-dropdown-menu{width: 250px; display: none;}
+.right-dropdown {
+    width: 250px;
+}
+.right-dropdown:hover .right-dropdown-menu,
+.right-dropdown .right-dropdown-menu:hover{display: block;}
+.end-320{left: 250px; top:0px}
+.fw-500 {
+    font-weight: 500;
+}
+
+.fw-600 {
+    font-weight: 600 !important;
+}
+
+.fw-700 {
+    font-weight: 700 !important;
+}
+
+.img-cover {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+.img-contain {
+    height: 100%;
+    width: 100%;
+    object-fit: contain;
+}
+
+.fs-33 {
+    font-size: 33px;
+}
+
+.fs-30 {
+    font-size: 28px;
+}
+
+.fs-25 {
+    font-size: 25px;
+}
+
+.fs-40 {
+    font-size: 40px;
+}
+
+.fs-22 {
+    font-size: 22px;
+}
+
+.fs-90 {
+    font-size: 90px;
+}
+
+.fs-60 {
+    font-size: 60px;
+}
+
+.fs-75 {
+    font-size: 75px;
+}
+
+.text-justify {
+    /* text-align: justify; */
+    text-justify: inter-word;
+}
+
+.taxbenifits h1 {
+    text-shadow: 5px 5px 5px rgb(199 199 0);
+    transition: all 0.5s ease-in;
+}
+
+.fs-14 {
+    font-size: 14px;
+}
+
+.fs-12 {
+    font-size: 12px;
+}
+
+.fs-13 {
+    font-size: 13px;
+}
+
+.fs-15 {
+    font-size: 15px;
+}
+
+.bg-yellow {
+    background: #F9CA3E;
+}
+
+.h-28 {
+    height: 28px;
+}
+
+.fs-18 {
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.fw-600 {
+    font-weight: 600;
+}
+
+.ps-10 {
+    padding-left: 5rem;
+}
+
+.fs-50 {
+    font-size: 50px;
+}
+
+.fs-21 {
+    font-size: 21px;
+}
+
+.bg-gray {
+    background: #3C3C3C;
+}
+
+.fs-20 {
+    font-size: 20px;
+    color: #3C3C3C;
+    font-weight: 400;
+}
+
+.fs-25 {
+    font-size: 25px;
+}
+
+.fs-70 {
+    font-size: 70px;
+}
+
+.text-yellow {
+    color: #F9CA3E;
+}
+
+.text-dark-gray {
+    color: #3C3C3C;
+}
+
+.bg-light-yellow {
+    background: #FFE6C1;
+
+}
+
+.mt-15 {
+    margin-top: 15rem;
+}
+
+.btn-pill {
+    width: 8.5rem
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+span,
+p {
+    -webkit-user-select: none;
+    /* Safari, Chrome */
+    -moz-user-select: none;
+    /* Firefox */
+    -ms-user-select: none;
+    /* Internet Explorer/Edge */
+    user-select: none;
+    /* Standard */
+}
+
+/* media query  */
+@media (max-width:1200px) {
+    .fs-30 {
+        font-size: 25px;
+    }
+}
+
+@media (max-width: 991.98px) {
+    .ps-10 {
+        padding-left: 0;
+    }
+
+    .fs-30 {
+        font-size: 20px;
+        line-height: 24.38px;
+    }
+
+    .fs-21 {
+        font-size: 14px;
+    }
+
+    .fs-25 {
+        font-size: 20px;
+    }
+}
+
+@media(max-width:767.98px) {
+    .fs-22 {
+        font-size: 17px;
+    }
+
+    .fs-12 {
+        font-size: 10.19px;
+    }
+
+    .fs-33 {
+        font-size: 20px;
+    }
+
+    .fs-21 {
+        font-size: 12px;
+    }
+
+}
+
+@media (max-width:600px) {
+    .mt-15 {
+        margin-top: 9rem;
+    }
+
+    .fs-70 {
+        font-size: 40px;
+        margin: 0;
+    }
+
+    .fs-90 {
+        font-size: 70px;
+    }
+
+    .btn-pill {
+        width: 7.2rem
+    }
+}
+
+.mobile-review-client .mobile-img-client1 .box img {
+    aspect-ratio: 16/9;
+    object-fit: cover;
+}
+
+
+.carousel-control-next,
+.carousel-control-prev {
+    z-index: 999;
+}
+
+
+
+.carousel-control-next .carousel-control-next-icon,
+.carousel-control-prev .carousel-control-prev-icon {
+    background-color: #F9CA3E;
+    margin: 10px;
+    border-radius: 50%;
+    display: inline-block;
+    background-size: 25px;
+    width: 50px;
+    height: 50px;
+}
