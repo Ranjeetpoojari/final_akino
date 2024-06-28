@@ -157,7 +157,7 @@
                                     <img src="{{url('/assets/img/hurt.png')}}" alt="Akino-image" class="hurt me-2">
                                     <p class="span text-dark-gray fs-18"></p>{{$item->count_total}} supporter's</p>
                                 </div>
-                                <button class="btn bg-warning-subtle text-warning-emphasis fw-medium rounded-pill py-1 px-3" style="width: 157px;
+                                <a href="{{url('/campaign/'.encrypt($item->id))}}" class="btn bg-warning-subtle text-warning-emphasis fw-medium rounded-pill py-1 px-3" style="width: 157px;
                                 height: 34px;
                                 overflow: hidden;">Donate Now</button>
                             </div>
