@@ -324,10 +324,32 @@
         <div class="item">
           <div class="volentercard m-auto">
             <div class="volenter-img">
-              <img src="{{url('/assets/img/volunteers/poonam_raju_wadtele.webp')}}" alt="" srcset="" class="vol-img">
+              <img src="{{url('/assets/img/volunteers/sudatta_kharat.webp')}}" alt="" srcset="" class="vol-img">
             </div>
             <div class="volenter-content">
-              <p class="lazyMonday position-relative text-white fs-30 ps-2">Poonam Raju Wadtele</p>
+              <p class="lazyMonday position-relative text-white fs-30 ps-2">Sugatta Kharat</p>
+            </div>
+          </div>
+
+        </div>
+        <div class="item">
+          <div class="volentercard m-auto">
+            <div class="volenter-img">
+              <img src="{{url('/assets/img/volunteers/dipanshu_shukla.webp')}}" alt="" srcset="" class="vol-img">
+            </div>
+            <div class="volenter-content">
+              <p class="lazyMonday position-relative text-white fs-30 ps-2">Dipanshu Shukla</p>
+            </div>
+          </div>
+
+        </div>
+        <div class="item">
+          <div class="volentercard m-auto">
+            <div class="volenter-img">
+              <img src="{{url('/assets/img/volunteers/govind_kalangutkar.webp')}}" alt="" srcset="" class="vol-img">
+            </div>
+            <div class="volenter-content">
+              <p class="lazyMonday position-relative text-white fs-30 ps-2">Govind Kalangutkar</p>
             </div>
           </div>
 
